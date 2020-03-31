@@ -10,7 +10,7 @@ public class ImageDuplicateFinder {
 		
 		int dups = 0, files = 0;
 		
-		File folder = new File("C:/Users/Scott/Documents/");
+		File folder = new File("C:/Users/crate/Documents/");
 		File[] listOfFiles = folder.listFiles();
 		
 		List<FileWithHash> listWithHash = new ArrayList<FileWithHash>();
